@@ -16,6 +16,5 @@ Dataset ini mencakup berbagai label jenis jerawat berikut:
 
 ⚙️ Model – YOLOv5
 
-Model deteksi jerawat ini dibangun menggunakan arsitektur YOLOv5. Proses pelatihan dilakukan selama 30 epoch, menghasilkan deteksi jerawat yang akurat dan efisien.
-https://github.com/ultralytics/yolov5. Hasil pelatihan menunjukkan performa yang sangat baik. Nilai precision sebesar 83,24% dan recall sebesar 82,43% menandakan bahwa model mampu mengenali objek jerawat secara akurat dan konsisten.  Nilai mAP@0.5 sebesar 86,81% menunjukkan kemampuan deteksi yang tinggi pada ambang batas IoU 0.5, sementara mAP@0.5:0.95 sebesar 44,88% mencerminkan performa model yang cukup baik di berbagai tingkat ketelitian.
+Model deteksi jerawat ini dibangun menggunakan arsitektur YOLOv5 https://github.com/ultralytics/yolov5. Proses pelatihan dilakukan selama 30 epoch dengan hasil precision sebesar 83,24% dan recall sebesar 82,43% menandakan bahwa model mampu mengenali objek jerawat secara akurat dan konsisten.  Nilai mAP@0.5 sebesar 86,81% menunjukkan kemampuan deteksi yang tinggi pada ambang batas IoU 0.5, sementara mAP@0.5:0.95 sebesar 44,88% mencerminkan performa model yang cukup baik di berbagai tingkat ketelitian.
 
