@@ -1,5 +1,6 @@
 ---
 
+
 # Automatic Acne Detection Application 🔍💻
 
 A web application built using Flask (Python). This app allows users to upload a facial image or capture a photo directly using the camera, then automatically detects various types of acne using the YOLOv5 object detection model.
@@ -10,11 +11,11 @@ The model was trained using the public Acne v3 dataset available on Roboflow:
 **https://universe.roboflow.com/skin-lj9yp/acne_v3**
 
 ## The dataset includes several acne-type labels:
-* **Blackhead
-* **Whitehead
-* **Papule
-* **Pustule
-* **Nodule
+* **Blackhead**
+* **Whitehead**
+* **Papule**
+* **Pustule**
+* **Nodule**
 
 ## Model – YOLOv5 ⚙️
 The acne detection model was developed using the YOLOv5 architecture:
@@ -26,3 +27,4 @@ The acne detection model was developed using the YOLOv5 architecture:
 ## Screenshots 📸
 
 
+---
