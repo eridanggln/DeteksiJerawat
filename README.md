@@ -25,6 +25,8 @@ The acne detection model was developed using the YOLOv5 architecture:
 **Training was conducted for 30 epochs, producing a precision of 83.24% and recall of 82.43%, indicating that the model can accurately and consistently identify acne.**
 
 ## Screenshots 📸
+![Image](https://github.com/user-attachments/assets/1bec1530-3913-40f7-bce0-48c785c6f5a2)
+![Image](https://github.com/user-attachments/assets/ff75b2a7-f614-4f15-9225-f413f574f35b)
 ![Image](https://github.com/user-attachments/assets/f51d8de1-324d-49ef-9692-760e4888a64e)
 ![Image](https://github.com/user-attachments/assets/8a0957fd-a9dd-4170-8fe5-6a53bdf901ef)
 ![Image](https://github.com/user-attachments/assets/a6ee3b36-ad93-4f37-9408-1e7ed6322fd9)
