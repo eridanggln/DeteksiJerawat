@@ -1,20 +1,28 @@
-🔍 Aplikasi Deteksi Jerawat Otomatis
+---
 
-Aplikasi web yang dibangun menggunakan Flask (Python). Aplikasi ini memungkinkan pengguna untuk mengunggah gambar wajah atau mengambil foto langsung melalui kamera, kemudian secara otomatis mendeteksi berbagai jenis jerawat menggunakan model deteksi objek YOLOv5.
+# Automatic Acne Detection Application 🔍💻
 
-🗂️ Dataset – Acne v3 dari Roboflow
+A web application built using Flask (Python). This app allows users to upload a facial image or capture a photo directly using the camera, then automatically detects various types of acne using the YOLOv5 object detection model.
 
-Model ini dilatih menggunakan dataset publik Acne v3 yang tersedia di Roboflow:
-https://universe.roboflow.com/skin-lj9yp/acne_v3
+## Dataset – Acne v3 from Roboflow 🗂️
 
-Dataset ini mencakup berbagai label jenis jerawat berikut:
-- Komedo Hitam (Blackhead)
-- Komedo Putih (Whitehead)
-- Papula (Papule)
-- Pustula (Pustule)
-- Nodul (Nodule)
+The model was trained using the public Acne v3 dataset available on Roboflow:
+**https://universe.roboflow.com/skin-lj9yp/acne_v3**
 
-⚙️ Model – YOLOv5
+## The dataset includes several acne-type labels:
+* **Blackhead
+* **Whitehead
+* **Papule
+* **Pustule
+* **Nodule
 
-Model deteksi jerawat ini dibangun menggunakan arsitektur YOLOv5 https://github.com/ultralytics/yolov5. Proses pelatihan dilakukan selama 30 epoch dengan hasil precision sebesar 83,24% dan recall sebesar 82,43% menandakan bahwa model mampu mengenali objek jerawat secara akurat dan konsisten.  Nilai mAP@0.5 sebesar 86,81% menunjukkan kemampuan deteksi yang tinggi pada ambang batas IoU 0.5, sementara mAP@0.5:0.95 sebesar 44,88% mencerminkan performa model yang cukup baik di berbagai tingkat ketelitian.
+## Model – YOLOv5 ⚙️
+The acne detection model was developed using the YOLOv5 architecture:
+**https://github.com/ultralytics/yolov5**
+.
+
+**Training was conducted for 30 epochs, producing a precision of 83.24% and recall of 82.43%, indicating that the model can accurately and consistently identify acne.**
+
+## Screenshots 📸
+
 
